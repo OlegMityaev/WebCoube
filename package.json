@@ -1,0 +1,18 @@
+{
+  "name": "WebCoube",
+  "version": "1.0.0",
+  "description": "IT-Cube Project for 2 week",
+  "main": "index.js",
+  "repository": "https://github.com/OlegMityaev/WebCoube.git",
+  "author": "Mityaev Oleg",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^3.2.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "deploy": "parcel build ./src/index.html gh-pages -d dist"
+  }
+}
