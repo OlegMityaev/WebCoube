@@ -1,17 +1,14 @@
 .header{
-    /*background-image: url('https://img.oldi.ru/upload/resaiz_images_catalog/big/100/2776192/2776192_1.jpg'),
-    url('https://pc-arena.ru/upload/iblock/37e/37e0f25c4f3e5719062493268a1d17f0.jpg');
-    background-repeat: no-repeat;*/
-    background-position:0px;
-    background-size: 10%;
-}
-
-.page{
+    background-size: 100%;
     background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1613238406_165-p-fon-gradient-sinii-krasnii-202.jpg');
     background-repeat: no-repeat;
-    background-position:0px;
-    background-size: 100%;
 }
+
+/*.page{
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1613238406_165-p-fon-gradient-sinii-krasnii-202.jpg');
+    background-repeat: no-repeat;
+    background-size: 110%;
+}*/
 
 .title {
     display: flex;
@@ -32,6 +29,28 @@
     color: orangered;
     font-weight: 100;
 }
+/*table start*/
+
+.tablo{
+    display: flex;
+    background-color: rgb(240, 234, 184);
+    padding-bottom: 0px;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table_button{
+    padding-left: 0px;
+    font-size: 30px;
+    width: 250px;;
+    height: 100px;;
+    border-radius: 1px;;
+}
+
+/*table end*/
 
 /*card start*/
 .card-wrap {    
@@ -40,7 +59,8 @@
 .card {
     padding: 5px;
     position: relative;
-    background: none;   
+    background: #0c71e4;
+    border: 1px solid black; 
 }
 .card:hover {
     transform: scale(1.02);
@@ -124,6 +144,8 @@ hr {
 
 .cards{
     padding-bottom: 107px;
+    padding-top: 107px;
+    background: #BBD6D6;
 }
 
 .title_images {
@@ -139,12 +161,22 @@ hr {
 }
 
 .button {
-    width: 100px;
-    height: 24px;
-    border-radius: 15px;
+    width: 200px;
+    height: 74px;
+    border-radius: 19px;
     background: #BBD6D6;
     border:none;
-    font-size:13px;
+    font-size:20px;
+}
+
+#Load{
+    width: 300px;
+    height: 74px;
+    border-radius: 19px;
+    background: #BBD6EF;
+    border:none;
+    font-size:20px;
+    border: 1px solid black; 
 }
 
 
