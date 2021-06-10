@@ -1,0 +1,228 @@
+.header{
+    background-size: 100%;
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1613238406_165-p-fon-gradient-sinii-krasnii-202.jpg');
+    background-repeat: no-repeat;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 11px;
+    font-size: 80px;
+    letter-spacing: 0.09em;
+    color: orange;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 100px;
+    font-size: 60px;
+    letter-spacing: 0.09em;
+    color: orangered;
+    font-weight: 100;
+}
+/*table start*/
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+
+.table_button{
+    font-size: 30px;
+    width: 270px;;
+    height: 150px;;
+    border-radius: 10px;
+    background-color: #f7ef78;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.table_button:hover{
+    transform: scale(1.2);
+    transition-duration: .2s;
+    box-shadow: 0 0 2px 4px rgba(234, 134, 0, 1); 
+}
+
+.tablo{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    background-color: #f7cd7f;
+    justify-content: space-around;
+}
+
+.link{
+    text-decoration: none ;
+}
+
+/*table end*/
+
+
+/*card start*/
+.card-wrap {    
+    position: relative;   
+}
+
+.card {
+    padding: 5px;
+    position: relative;
+    background: #0c71e4;
+    border: 1px solid black; 
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    transition-duration: .3s;
+    box-shadow: 0 0 2px 4px rgba(234, 134, 0, 1);   
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card:hover .card__button {
+    background-color:rgba(234, 134, 0, 1) ;
+}
+
+.card:hover .card__text {
+    display: block;
+    z-index: 3;
+}
+
+
+.card__title {
+    height: 46px;
+}
+.card__text {
+    display: none;
+    color: white;
+}
+
+hr {
+    margin: 0;
+    width: 90%;
+    opacity: .4;
+}
+
+.card__title {
+    font-size: 13px;
+    line-height: 16px;
+    color: white;
+    font-family: "Arial", serif;
+    margin: 5px 5px 10px;
+}
+.card__image {
+    max-width: 100% ;
+    height: 236px;
+}
+
+.card__price {
+    font-size:13px;
+    margin: 0;
+    color:palegreen;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+}
+
+.card__special-text {
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.center_grid {
+    margin: 100px auto;
+}
+
+.grid {
+    max-width:1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    gap:5px;
+    padding-bottom:105px;
+}
+
+.cards{
+    padding-bottom: 107px;
+    padding-top: 107px;
+    background: #BBD6D6;
+}
+
+.title_images {
+    margin-top: 0;
+    padding-top: 54px;
+    color:#000;
+    padding-bottom: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 200px;
+    height: 74px;
+    border-radius: 19px;
+    background: #BBD6D6;
+    border:none;
+    font-size:20px;
+}
+
+#Load{
+    width: 300px;
+    height: 74px;
+    border-radius: 19px;
+    background: #BBD6EF;
+    border:none;
+    font-size:20px;
+    border: 1px solid black; 
+}
+
+
+/*card end*/
+
+/*footer start*/
+
+.footer {
+    background: #29185B;
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 165px;
+}
+.footer__text {
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.logo {
+    width: 201px;
+    height: 63px;
+
+}
+.finish {
+  align-self: flex-end;
+}
+
+
+
+/*footer end*/
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
