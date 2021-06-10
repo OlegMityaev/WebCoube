@@ -13,6 +13,7 @@
     font-size: 80px;
     letter-spacing: 0.09em;
     color: orange;
+    font-size:6vw
 }
 .subtitle {
     display: flex;
@@ -23,6 +24,7 @@
     letter-spacing: 0.09em;
     color: orangered;
     font-weight: 100;
+    font-size: 2vw;
 }
 /*table start*/
 
