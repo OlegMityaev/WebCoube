@@ -26,6 +26,12 @@
 }
 /*table start*/
 
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+
 .table_button{
     font-size: 30px;
     width: 270px;;
@@ -33,6 +39,7 @@
     border-radius: 10px;
     background-color: #f7ef78;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .table_button:hover{
@@ -42,10 +49,10 @@
 }
 
 .tablo{
-    background-color: #f7cd7f;
-    max-width: 100%;
     display: flex;
-    grid-template-columns: repeat(auto-fit);
+    flex-wrap: wrap;
+    column-gap: 5px;
+    background-color: #f7cd7f;
     justify-content: space-around;
 }
 

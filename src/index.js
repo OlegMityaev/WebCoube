@@ -39,10 +39,20 @@ function getData() {
 }
 const refresh = () => {
     getData().then((data) => {
-        return data.forEach((el) => {
-            renderCard(el)
-        })
+        return pushArray(data)
     })
+}
+function pushArray(array) {
+    let count = 0
+    const limitCard = 6;
+    for (let i = 0; i < array.length; i++) {
+        count++
+        if ( count <= limitCard) {
+            renderCard(array[i])
+        } else {
+            break;
+        }
+    }
 }
 
 button.addEventListener('click', refresh)
