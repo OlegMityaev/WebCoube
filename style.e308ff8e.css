@@ -13,6 +13,7 @@
     font-size: 80px;
     letter-spacing: 0.09em;
     color: orange;
+    font-size:6vw
 }
 .subtitle {
     display: flex;
@@ -23,6 +24,7 @@
     letter-spacing: 0.09em;
     color: orangered;
     font-weight: 100;
+    font-size: 2vw;
 }
 /*table start*/
 
@@ -33,9 +35,9 @@
 }
 
 .table_button{
-    font-size: 30px;
-    width: 270px;;
-    height: 150px;;
+    font-size: 1vw;
+    width: 10vw;;
+    height: 5vw;;
     border-radius: 10px;
     background-color: #f7ef78;
     margin-bottom: 15px;
